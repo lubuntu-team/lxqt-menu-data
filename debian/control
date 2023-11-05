@@ -1,0 +1,18 @@
+Source: lxqt-menu-data
+Section: libs
+Priority: optional
+Maintainer: Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
+Uploaders: Simon Quigley <tsimonq2@ubuntu.com>
+Rules-Requires-Root: no
+Build-Depends: cmake, debhelper-compat (= 13), lxqt-build-tools (>= 0.13.0)
+Standards-Version: 4.6.2
+Vcs-Browser: https://git.lubuntu.me/Lubuntu/lxqt-menu-data-packaging
+Vcs-Git: https://git.lubuntu.me/Lubuntu/lxqt-menu-data-packaging.git
+Homepage: https://github.com/lxqt/lxqt-menu-data
+
+Package: lxqt-menu-data
+Architecture: all
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Freedesktop.org compliant menu files for LXQt
+ This package contains Freedesktop.org compliant menu files for LXQt Panel,
+ Configuration Center and PCManFM-Qt/libfm-qt.
