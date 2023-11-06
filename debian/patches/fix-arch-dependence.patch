@@ -1,0 +1,22 @@
+Description: Fix arch-dependence issues
+ lxqt-menu-data is arch-independent, however the main CMakeLists.txt file
+ is configured improperly and is generating an arch-dependent config file.
+ This is causing build failures for users of lxqt-menu-data on 32-bit arches
+ like armhf. Fix the configuration issue.
+Author: Aaron Rainbolt <arraybolt3@ubuntu.com>
+Origin: vendor
+Bug: https://github.com/lxqt/lxqt-menu-data/issues/17
+Forwarded: not-needed
+Last-Update: 2023-11-06
+---
+This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -36,6 +36,7 @@ write_basic_package_version_file(
+     "${CMAKE_BINARY_DIR}/${LXQT_MENU_DATA_CMAKE_NAME}-config-version.cmake"
+     VERSION ${LXQT_MENU_DATA_VERSION}
+     COMPATIBILITY AnyNewerVersion
++    ARCH_INDEPENDENT
+ )
+ 
+ install(FILES

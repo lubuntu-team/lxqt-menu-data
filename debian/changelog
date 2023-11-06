@@ -1,3 +1,9 @@
+lxqt-menu-data (1.4.0-0ubuntu2) UNRELEASED; urgency=medium
+
+  * Make the package arch-independent
+
+ -- Aaron Rainbolt <arraybolt3@gmail.com>  Mon, 06 Nov 2023 10:27:06 -0600
+
 lxqt-menu-data (1.4.0-0ubuntu1) noble; urgency=medium
 
   * Initial release.
