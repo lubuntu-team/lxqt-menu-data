@@ -4,13 +4,13 @@ Upstream-Name: lxqt-menu-data
 
 Files: *
 Copyright: 2023 LXQt team
-License: LGPL-2.1+
+License: LGPL-2.1
 
 Files: debian/*
 Copyright: 2023 Simon Quigley <tsimonq2@ubuntu.com>
-License: LGPL-2.1+
+License: LGPL-2.1
 
-License: LGPL-2.1+
+License: LGPL-2.1
  This program or library is free software; you can redistribute it
  and/or modify it under the terms of the GNU Lesser General Public
  License as published by the Free Software Foundation; either

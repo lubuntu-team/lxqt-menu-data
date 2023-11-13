@@ -1,3 +1,10 @@
+lxqt-menu-data (1.4.1-0ubuntu1) noble; urgency=medium
+
+  * New upstream release.
+  * Fix minor copyright issue.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 10 Nov 2023 10:56:30 -0600
+
 lxqt-menu-data (1.4.0-0ubuntu1) noble; urgency=medium
 
   * Initial release.
