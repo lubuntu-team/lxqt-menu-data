@@ -1,3 +1,9 @@
+lxqt-menu-data (1.4.1-0ubuntu3) noble; urgency=medium
+
+  * Instead of saying X-Leave, say Leave.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Mon, 13 Nov 2023 17:28:47 -0600
+
 lxqt-menu-data (1.4.1-0ubuntu2) noble; urgency=medium
 
   * Add Breaks/Replaces to ensure smooth upgrades
