@@ -13,6 +13,12 @@ Homepage: https://github.com/lxqt/lxqt-menu-data
 Package: lxqt-menu-data
 Architecture: all
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: lxqt-panel (<< 1.4.0),
+        lxqt-config (<< 1.4.0),
+        pcmanfm-qt (<< 1.4.0)
+Replaces: lxqt-panel (<< 1.4.0),
+          lxqt-config (<< 1.4.0),
+          pcmanfm-qt (<< 1.4.0)
 Description: Freedesktop.org compliant menu files for LXQt
  This package contains Freedesktop.org compliant menu files for LXQt Panel,
  Configuration Center and PCManFM-Qt/libfm-qt.
