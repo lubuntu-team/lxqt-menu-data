@@ -1,3 +1,9 @@
+lxqt-menu-data (1.4.1-0ubuntu4~ppa1) jammy; urgency=medium
+
+  * Backport to Jammy.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 14 Nov 2023 16:17:37 -0600
+
 lxqt-menu-data (1.4.1-0ubuntu4) noble; urgency=medium
 
   * Just went a little too hard on the s/X-Leave/Leave/, now things work.
