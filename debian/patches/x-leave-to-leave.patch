@@ -8,16 +8,7 @@ Last-Update: 2023-11-13
 This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
 --- a/menu/lxqt-applications-compact.menu
 +++ b/menu/lxqt-applications-compact.menu
-@@ -139,7 +139,7 @@
- 				<Category>System</Category>
- 				<Not><Category>Settings</Category></Not>
- 				<Not><Category>PackageManager</Category></Not>
--				<Not><Category>X-Leave</Category></Not>
-+				<Not><Category>Leave</Category></Not>
- 				<Not><Category>Screensaver</Category></Not>
- 				<Not><Filename>lxqt-about.desktop</Filename></Not>
- 			</And>
-@@ -209,11 +209,11 @@
+@@ -209,7 +209,7 @@
  
  	<!-- Leave -->
  	<Menu>
@@ -26,11 +17,6 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
  		<Directory>lxqt-leave.directory</Directory>
  		<Include>
  			<And>
--				<Category>X-Leave</Category>
-+				<Category>Leave</Category>
- 			</And>
- 		</Include>
- 		<Exclude>
 @@ -240,7 +240,7 @@
  		<Menuname>LXQtSettings</Menuname>
  		<Menuname>DesktopSettings</Menuname>
@@ -42,16 +28,7 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
  
 --- a/menu/lxqt-applications-simple.menu
 +++ b/menu/lxqt-applications-simple.menu
-@@ -147,7 +147,7 @@
- 				<Category>System</Category>
- 				<Not><Category>Settings</Category></Not>
- 				<Not><Category>PackageManager</Category></Not>
--				<Not><Category>X-Leave</Category></Not>
-+				<Not><Category>Leave</Category></Not>
- 				<Not><Category>Screensaver</Category></Not>
- 				<Not><Filename>lxqt-about.desktop</Filename></Not>
- 			</And>
-@@ -193,11 +193,11 @@
+@@ -193,7 +193,7 @@
  
  	<!-- Leave -->
  	<Menu>
@@ -60,11 +37,6 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
  		<Directory>lxqt-leave.directory</Directory>
  		<Include>
  			<And>
--				<Category>X-Leave</Category>
-+				<Category>Leave</Category>
- 			</And>
- 		</Include>
- 	</Menu>	 <!-- End Leave -->
 @@ -217,7 +217,7 @@
  		<Separator/>
  		<Menuname show_empty="false" inline="true">Configuration Center</Menuname>
@@ -76,16 +48,7 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
  
 --- a/menu/lxqt-applications.menu
 +++ b/menu/lxqt-applications.menu
-@@ -139,7 +139,7 @@
- 				<Category>System</Category>
- 				<Not><Category>Settings</Category></Not>
- 				<Not><Category>PackageManager</Category></Not>
--				<Not><Category>X-Leave</Category></Not>
-+				<Not><Category>Leave</Category></Not>
- 				<Not><Category>Screensaver</Category></Not>
- 				<Not><Filename>lxqt-about.desktop</Filename></Not>
- 			</And>
-@@ -205,11 +205,11 @@
+@@ -205,7 +205,7 @@
  
  	<!-- Leave -->
  	<Menu>
@@ -94,11 +57,6 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
  		<Directory>lxqt-leave.directory</Directory>
  		<Include>
  			<And>
--				<Category>X-Leave</Category>
-+				<Category>Leave</Category>
- 			</And>
- 		</Include>
- 	</Menu>	 <!-- End Leave -->
 @@ -229,7 +229,7 @@
  		<Menuname>DesktopSettings</Menuname>
  		<Menuname show_empty="false" inline="true">LXQt-About</Menuname>

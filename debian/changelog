@@ -1,3 +1,9 @@
+lxqt-menu-data (1.4.1-0ubuntu4) noble; urgency=medium
+
+  * Just went a little too hard on the s/X-Leave/Leave/, now things work.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 14 Nov 2023 16:13:59 -0600
+
 lxqt-menu-data (1.4.1-0ubuntu3) noble; urgency=medium
 
   * Instead of saying X-Leave, say Leave.
