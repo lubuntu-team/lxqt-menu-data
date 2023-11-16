@@ -1,3 +1,9 @@
+lxqt-menu-data (1.4.1-0ubuntu4~ppa1) mantic; urgency=medium
+
+  * Backport to Mantic.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 16 Nov 2023 12:51:19 -0600
+
 lxqt-menu-data (1.4.1-0ubuntu4) noble; urgency=medium
 
   * Just went a little too hard on the s/X-Leave/Leave/, now things work.
