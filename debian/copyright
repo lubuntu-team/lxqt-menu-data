@@ -3,11 +3,12 @@ Source: https://github.com/lxqt/lxqt-menu-data
 Upstream-Name: lxqt-menu-data
 
 Files: *
-Copyright: 2023 LXQt team
+Copyright: 2023-2024 LXQt team
 License: LGPL-2.1
 
 Files: debian/*
 Copyright: 2023 Simon Quigley <tsimonq2@ubuntu.com>
+           2024 Aaron Rainbolt <arraybolt3@ubuntu.com>
 License: LGPL-2.1
 
 License: LGPL-2.1
