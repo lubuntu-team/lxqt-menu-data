@@ -1,4 +1,4 @@
-lxqt-menu-data (2.0.0-0ubuntu1~ppa1) UNRELEASED; urgency=medium
+lxqt-menu-data (2.0.0-0ubuntu1~ppa1) oracular; urgency=medium
 
   * New upstream release.
   * Bump build deps.
