@@ -1,3 +1,9 @@
+lxqt-menu-data (2.1.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 05 Nov 2024 11:30:22 -0600
+
 lxqt-menu-data (2.0.0-0ubuntu1) oracular; urgency=medium
 
   * New upstream release.
