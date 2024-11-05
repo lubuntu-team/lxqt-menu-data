@@ -26,26 +26,6 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
  		<Menuname show_empty="false" inline="true">Screensaver</Menuname>
  	</Layout>
  
---- a/menu/lxqt-applications-simple.menu
-+++ b/menu/lxqt-applications-simple.menu
-@@ -193,7 +193,7 @@
- 
- 	<!-- Leave -->
- 	<Menu>
--		<Name>X-Leave</Name>
-+		<Name>Leave</Name>
- 		<Directory>lxqt-leave.directory</Directory>
- 		<Include>
- 			<And>
-@@ -217,7 +217,7 @@
- 		<Separator/>
- 		<Menuname show_empty="false" inline="true">Configuration Center</Menuname>
- 		<Separator/>
--		<Menuname show_empty="false">X-Leave</Menuname>
-+		<Menuname show_empty="false">Leave</Menuname>
- 		<Menuname show_empty="false" inline="true">Screensaver</Menuname>
- 	</Layout>
- 
 --- a/menu/lxqt-applications.menu
 +++ b/menu/lxqt-applications.menu
 @@ -205,7 +205,7 @@

@@ -2,6 +2,7 @@ lxqt-menu-data (2.1.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release.
     - Bump build dependencies.
+    - Refresh patch.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 05 Nov 2024 11:30:22 -0600
 
