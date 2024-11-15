@@ -1,11 +1,11 @@
-lxqt-menu-data (2.1.0-0ubuntu1) UNRELEASED; urgency=medium
+lxqt-menu-data (2.1.0-0ubuntu1) plucky; urgency=medium
 
   * New upstream release.
     - Bump build dependencies.
     - Refresh patch.
   * Make the package Lintian-clean.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 05 Nov 2024 11:30:22 -0600
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 15 Nov 2024 15:32:39 -0600
 
 lxqt-menu-data (2.0.0-0ubuntu1) oracular; urgency=medium
 
