@@ -1,10 +1,10 @@
-lxqt-menu-data (2.2.0-0ubuntu1) UNRELEASED; urgency=medium
+lxqt-menu-data (2.2.0-0ubuntu1) questing; urgency=medium
 
   * New upstream release.
     - Update build dependencies.
   * Update Standards-Version to 4.7.2, no changes needed.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 19 Apr 2025 17:18:42 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 19 Apr 2025 17:22:00 -0500
 
 lxqt-menu-data (2.1.0-0ubuntu3) plucky; urgency=medium
 
