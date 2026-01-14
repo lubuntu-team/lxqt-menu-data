@@ -4,7 +4,6 @@ Priority: optional
 Maintainer: Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
 Uploaders: Simon Quigley <tsimonq2@ubuntu.com>,
            Aaron Rainbolt <arraybolt3@ubuntu.com>
-Rules-Requires-Root: no
 Build-Depends: cmake, debhelper-compat (= 13), lxqt-build-tools (>= 2.3.0)
 Standards-Version: 4.7.3
 Vcs-Browser: https://git.lubuntu.me/Lubuntu/lxqt-menu-data-packaging
