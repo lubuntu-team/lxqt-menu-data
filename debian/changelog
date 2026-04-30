@@ -1,4 +1,4 @@
-lxqt-menu-data (2.4.0-0ubuntu1) UNRELEASED; urgency=medium
+lxqt-menu-data (2.4.0-0ubuntu1) stonking; urgency=medium
 
   * New upstream release.
     - Update build dependencies.
@@ -7,7 +7,7 @@ lxqt-menu-data (2.4.0-0ubuntu1) UNRELEASED; urgency=medium
   * Drop Breaks/Replaces, we are past an LTS.
   * Update the copyright file.
 
- -- Simon Quigley <tsimonq2@debian.org>  Thu, 30 Apr 2026 12:43:27 -0500
+ -- Simon Quigley <tsimonq2@debian.org>  Thu, 30 Apr 2026 12:47:11 -0500
 
 lxqt-menu-data (2.3.0-0ubuntu1) resolute; urgency=medium
 
