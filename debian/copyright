@@ -3,7 +3,7 @@ Source: https://github.com/lxqt/lxqt-menu-data
 Upstream-Name: lxqt-menu-data
 
 Files: *
-Copyright: 2023-2025 LXQt team
+Copyright: 2023-2026 LXQt team
 License: LGPL-2.1
 
 Files: debian/*
